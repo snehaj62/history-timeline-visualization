@@ -1,0 +1,518 @@
+/* App.css */
+body{
+  background-color:   #FFF8DC
+  ;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.history-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.page {
+  max-width: 600px;
+  margin: 0 auto;
+
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.page-title {
+  margin-top: 0;
+}
+
+.topic {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.topic:hover {
+  background-color: #e0e0e0;
+}
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* App.css */
+.navbar {
+  top: 0;
+  background-color: #3E2723;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.logo {
+  margin: 0;
+
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-btn {
+  margin: 0;
+  padding: 10px 30px;
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  background-color: #c9705e;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  z-index: 1;
+  border: solid 2px #3E2723;
+}
+
+.dropdown-link {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: orangered;
+}
+
+.dropdown-link:hover {
+  background-color: #555;
+}
+/* App.css */
+.page-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page {
+
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.page-title {
+  margin-top: 0;
+}
+
+.topic {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.topic:hover {
+  background-color: #e0e0e0;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* App.css */
+.page {
+
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  height: 500px; /* Set a fixed height for the container */
+  overflow-y: auto; /* Enable vertical scrollbar when content overflows */
+}
+
+/* Add this style if you want to hide the horizontal scrollbar */
+.page {
+  overflow-x: hidden;
+}
+/* App.css */
+.history-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 22px;
+  margin-left: 10px;
+
+  text-align:justify;
+
+  
+}
+
+
+.history-box {
+  background-color:  #9B7E46;
+  margin-right: 20px;
+  width: 300px;
+  padding: 20px;
+  height: 200px;
+ color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 20px;
+  border: solid 3px #4A2A07 ;
+  background-color: #d59a90;
+  .history-box {
+    background-image: url('Screenshot\ 2024-04-17\ 191248.png'); /* Update with your correct image path */
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    height: 400px; /* Adjust the height as needed */
+    padding: 20px; /* Adds padding for the text */
+    color: white; /* Ensures text is visible against the background */
+    text-align: center; /* Centers the text */
+    display: flex; /* Allows centering text horizontally and vertically */
+    flex-direction: column; /* Aligns text vertically */
+    justify-content: center; /* Centers text vertically */
+    align-items: center; /* Centers text horizontally */
+    border: 5px solid pink; /* Optional: adds a border around the box */
+  }
+  
+
+}
+
+.history-box:hover {
+  background-color: #4A2A07;
+  
+}
+
+.history-box h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.history-box p {
+  margin: 0;
+  padding: 5px;
+  color: black;
+}
+/* Maps.css */
+
+/* App.css */
+
+/* App.css (or the CSS file associated with the component) */
+.topic {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.topic:hover {
+  background-color: #e0e0e0;
+}
+
+.page-container {
+  padding: 20px;
+}
+
+.page {
+
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.page-title {
+  margin-top: 0;
+}
+
+/* App.css */
+
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  cursor: pointer;
+}
+
+.sidebar ul li:hover {
+  color: #007bff;
+}
+
+.sidebar ul ul {
+  margin-top: 10px;
+}
+
+
+/* SportsHistory.css */
+
+.page-container {
+  display: flex;
+
+}
+
+.sidebar {
+  position: fixed;
+  top: 59px;
+  left: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%; /* Make the sidebar full height of the viewport */
+  padding: 20px;
+  background-color: #c5a099;
+  overflow: auto;
+  
+  border-left: #3E2723 solid 2px;
+  border-right: #3E2723 solid 2px;
+  background-color: #d59a90;
+  /* Enable scrolling if the content overflows */
+}
+
+.main {
+  margin-left: 1px;
+   /* Make space for the fixed sidebar */
+  padding: 20px;
+  position: fixed;
+  top: 70px;
+  left: 250px;
+  width: 1000px;
+  max-height: 620px; 
+  overflow: auto;
+  font: 30px
+
+  ;
+}
+.main {
+ /* Make space for the fixed sidebar */
+  padding: 20px;
+  width: calc(87% - 250px);
+  text-align: justify; /* Calculate width dynamically based on the sidebar */
+}
+.subtopic-list
+.sidebar-title {
+  margin-top: 0;
+}
+
+.topic-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.topic {
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.subtopic-list {
+  margin: 5px;
+}
+
+.subtopic {
+  cursor: pointer;
+  margin-left: 10px;
+  
+}
+ul li {
+  margin-bottom: 5px;
+}
+.go-back-button{
+position: fixed;
+right: 10px;
+bottom: 20px;
+padding: 12px;
+border: none;
+background-color: black;
+color: white;
+border-radius: 30px;
+font-size: 1rem;
+
+}
+.go-back-button:hover{
+background-color: darkgrey;
+color: black;
+}
+.history-box p:hover{
+  color: #f0f0f0;
+}
+@keyframes emergeFromLeft {
+  from {
+    margin-left: -800px;
+    opacity: 0;
+  }
+  to {
+    margin-left: 100px;
+    opacity: 1;
+  }
+}
+.age{
+  font-size: 17px;
+  color: #e0e0e0;
+}
+/* Add this to your App.css or a similar stylesheet */
+.user-history-dropdown {
+/* Make the form positionable */
+  bottom: 10px;      /* Position 10 pixels from the bottom */
+/* Position 10 pixels from the right */
+  background: white; /* Background color */
+  border: 1px solid #ccc; /* Border */
+  padding: 10px;     /* Padding inside the box */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  left: 1px;
+  display: inline; /* Add some shadow for depth */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Distribute space evenly between elements */
+  align-items: center; /* Center items vertically */
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.nav-flex-container {
+  display: flex;
+  justify-content: space-between; /* Ensure elements are on opposite ends */
+  width: 100%;
+}
+
+.add-topic-toggle {
+  margin-right: 2px; /* Push the "Add Topic" to the leftmost position */
+}
+
+.dropdown-container {
+  text-align: right;
+}
+
+.dropdown-btn {
+  margin-right: 2px; /* Ensure the button appears on the rightmost */
+}
+.user-history-dropdown{
+  display: inline;
+
+}
+.add-topic-toggle{
+  margin-left: 5px;
+margin-bottom: 12px;
+margin-top: 0px;
+display: inline-block;
+margin-right: 1200px;
+}
+.add-topic-toggle-button{
+  background-color: #3E2723;
+  padding: 8px;
+  color: #fff;
+  border-radius: 20px;
+  border: solid 2px pink ;
+}
+
+/* Container to position at the bottom right */
+.user-history-dropdown{
+  display: inline;
+/* Distance from the right edge */
+  background-color: #f5f5f5; /* Optional background color */
+  padding: 8px; /* Optional padding */
+  border: 1px solid #ccc; /* Optional border */
+  border-radius: 5px; 
+/* Optional border radius */
+margin-top: 10px;
+right: 0;
+}
+
+/* Styling for dropdown menu */
+.user-history-dropdown-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.user-history-dropdown-menu li {
+  margin: 2px 0;
+  margin-left: 50px;
+}
+
+.user-history-dropdown button {
+  background-color: #007bff; /* Button color */
+  color: #fff; /* Text color */
+  padding: 10px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Border radius */
+  cursor: pointer; /* Pointer cursor */
+
+}
+
+.user-history-dropdown button:hover {
+  background-color: #0056b3;
+   /* Hover effect */
+}
+.new{
+  margin-left: 4px;
+  margin-top: 2px;
+  padding: 2px;
+margin-right: 1px;
+padding-left: 4px;
+background-color: #f2d5cf;
+border-radius: 10px;
+border: solid 2px lightblue;
+color: black;
+font-weight: bold;
+}
+.add-top{
+padding: 5px ;
+background-color: #c9705e
+;
+border: solid 2px white;
+border-radius: 30px;
+color: white;
+font-weight: bold;
+box-shadow: 2px 2px lightblue;
+margin-top: 2px;
+margin-left: 50px;
+}
+.add-top:hover{
+  background-color: #555;
+  transition: background-color 0.3s;
+}
